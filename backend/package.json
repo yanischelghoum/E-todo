@@ -1,0 +1,32 @@
+{
+  "name": "b-web-101-stg-1-1-etodo-4",
+  "version": "1.0.0",
+  "description": "E-todo API",
+  "main": "script/src/index.js",
+  "scripts": {
+    "start": "node script/src/index.js",
+    "dev": "nodemon script/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpitechBachelorPromo2028/B-WEB-101-STG-1-1-etodo-4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EpitechBachelorPromo2028/B-WEB-101-STG-1-1-etodo-4/issues"
+  },
+  "homepage": "https://github.com/EpitechBachelorPromo2028/B-WEB-101-STG-1-1-etodo-4#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
